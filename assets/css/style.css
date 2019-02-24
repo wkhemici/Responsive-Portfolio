@@ -137,7 +137,7 @@ body {
   /* portfolio page */
   
   .work {
-    position: fixed;
+    position: center;
     float: left;
     width: 274px;
     height: 100px;
@@ -222,7 +222,7 @@ body {
   @media screen {
       max-width: 980px;    
       max-width: 768px;
-      max-width: 640px`.
+      max-width: 640px;
   } 
 
-  
+  //viewport needs to be added for the media queries to fundtion properly.
