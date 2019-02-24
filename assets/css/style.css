@@ -221,8 +221,15 @@ body {
   
   @media screen {
       max-width: 980px;    
-      max-width: 768px;
+      max-width: 768px; 
       max-width: 640px;
   } 
+
+
+  @media screen and (max-width: 980px) {
+    header {
+      position static;
+    }
+  }
 
   //viewport needs to be added for the media queries to fundtion properly.
