@@ -137,9 +137,10 @@ body {
   /* portfolio page */
   
   .work {
-    position: relative;
+    position: fixed;
     float: left;
     width: 274px;
+    height: 100px;
     margin: 20px 0 25px;
     overflow: auto;
   }
@@ -215,4 +216,13 @@ body {
     background: #4aaaa5;
     border: 0 none;
   }
+
+  <!-- Media queries for the listed px sizes go here. Not sure how to incorporate more than 1. --> 
+  
+  @media screen {
+      max-width: 980px;    
+      max-width: 768px;
+      max-width: 640px`.
+  } 
+
   
