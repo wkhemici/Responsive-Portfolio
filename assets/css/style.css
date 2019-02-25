@@ -219,27 +219,24 @@ body {
 
   <!-- Media queries for the listed px sizes go here. Not sure how to incorporate more than 1. --> 
   
-  @media screen {
-      max-width: 980px;    
-      max-width: 768px; 
-      max-width: 640px;
+
   } 
 
 
-  @media only screen and (max-width:640px){
+  @media screen (max-width:640px){
     .container{width: 10%;}
     .header{position: static};
     }
     
-    @media only screen and (max-width:760px){
+    @media screen (max-width:760px){
     .container{width:10%;)
+    }
   
-  
-     @media only screen and (max-width:980px){
+     @media screen (max-width:980px){
         .center{width:10%;)
           
    padding {}
-  @media screen and (max-width: 980px || max-width: ) {
+  @media screen (max-width: 980px || max-width: ) {
     header {
       position static;
     }
